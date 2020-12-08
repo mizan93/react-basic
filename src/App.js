@@ -42,8 +42,10 @@ import React from 'react'
 // const { default: Counter } = require("./components/hooks/Counter");
 // const { default: Input } = require("./components/hooks/Input");
 // const { default: Classtimer } = require("./components/hooks/Classtimer");
-const { default: Hooktimer } = require("./components/hooks/Hooktimer");
+// const { default: Hooktimer } = require("./components/hooks/Hooktimer");
 // import ContexcomA from './components/contex/ContexcomA'
+import ReducerCounter from './components/ReducerCounter'
+import ReduserCounter1 from './components/ReduserCounter1'
 
 // export const UserContext=React.createContext()
 // export const ProfileContext=React.createContext()
@@ -59,8 +61,11 @@ function App() {
   };
   return (
     <div className="App" style={style}>
-    <Hooktimer></Hooktimer>
-    {/*<Classtimer></Classtimer>
+     <ReduserCounter1></ReduserCounter1>
+ 
+       {/* <ReducerCounter></ReducerCounter>
+     <Hooktimer></Hooktimer>
+   <Classtimer></Classtimer>
     <Input></Input>
     <Counter></Counter>
 <UseCallbackHook_parent></UseCallbackHook_parent>
