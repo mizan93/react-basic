@@ -46,6 +46,7 @@ import React from 'react'
 // import ContexcomA from './components/contex/ContexcomA'
 import ReducerCounter from './components/ReducerCounter'
 import ReduserCounter1 from './components/ReduserCounter1'
+import MultiReducer from './components/MultiReducer'
 
 // export const UserContext=React.createContext()
 // export const ProfileContext=React.createContext()
@@ -61,9 +62,10 @@ function App() {
   };
   return (
     <div className="App" style={style}>
-     <ReduserCounter1></ReduserCounter1>
+    <MultiReducer></MultiReducer>
+     {/*<ReduserCounter1></ReduserCounter1>
  
-       {/* <ReducerCounter></ReducerCounter>
+        <ReducerCounter></ReducerCounter>
      <Hooktimer></Hooktimer>
    <Classtimer></Classtimer>
     <Input></Input>
